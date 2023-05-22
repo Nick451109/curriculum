@@ -12,8 +12,16 @@
 <body>
     <header>
         <h1>Curriculum Vitae</h1>
+        <video width="320" height="240" controls>
+            <source src="/cat_coding.mp4" type="video/mp4">
+        </video>    
+        <nav>
+            <a href="https://github.com/Nick451109" target="_blank">Visitame</a>
+        </nav>
+
     </header>
     <main>
+        <img src="/foto.png" alt="so easy(soy ese)" width="200">
         <section>
             <h2>Personal Information</h2>
             <p>Name: Nick Arevalo</p>
@@ -38,12 +46,61 @@
             <p>Operating Systems: Linux, Windows</p>
             <p>Databases: MySQL, PostgreSQL</p>
         </section>
+
+        <section>
+            <h2>Form</h2>
+            <p></p>
+            <form action="/signup" method="post">
+                <p>
+                  <label>First name</label><br>
+                  <input type="text" name="first_name">
+                </p>
+                <p>
+                  <label>Last name</label><br>
+                  <input type="text" name="last_name">
+                </p>
+                <p>
+                  <label>Email</label><br>
+                  <input type="email" name="email" required>
+                </p>
+                <p>
+                  <label>Phone number</label><br>
+                  <input type="tel" name="phone">
+                </p>
+                <p>
+                  <label>Password</label><br>
+                  <input type="password" name="password">
+                </p>
+                <p>
+                  <label>Country</label><br>
+                  <select>
+                    <option>China</option>
+                    <option>India</option>
+                    <option>United States</option>
+                    <option>Indonesia</option>
+                    <option>Brazil</option>
+                  </select>
+                </p>
+                <p>
+                  <label>
+                    <input type="checkbox" value="terms">
+                    I agree to the <a href="/terms">terms and conditions</a>
+                  </label>
+                </p>
+                <p>
+                  <button>Sign up</button>
+                  <button type="reset">Reset form</button>
+                </p>
+              </form>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31897.72373184341!2d-79.88139547384677!3d-2.0697103709294513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d139d6c720893%3A0x8f96ca822d5c2ee6!2sCd%20Celeste%2C%20Samborond%C3%B3n!5e0!3m2!1ses!2sec!4v1684784095801!5m2!1ses!2sec" width="320" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </section>
     </main>
     <footer>
         <p>Copyright &copy; 2023</p>
-        <nav>
-            <a href="https://github.com/Nick451109">Visitame</a>
-        </nav>
+        
     </footer>
 </body>
 
