@@ -9,9 +9,7 @@
     --color-4: #77f2a1;
 }
 
-.home {
-    flex-wrap: wrap;
-}
+
 
 /*fuentes locales*/
 *{
@@ -510,10 +508,11 @@ div.img_proyecto {
     top: 60px;
     /*left: 40px;*/
     width: fit-content;
-    padding: 20px;
+    padding: 15px;
     position: relative;
     box-sizing: border-box;
 }
+
 
 div.txt_1 {
     display: flex;
