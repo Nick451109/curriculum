@@ -69,22 +69,22 @@ header {
 /*iconos*/
 .fa-linkedin:hover {
     /*cuando tengo mi mouse sobre el*/
-    color: rgb(45, 215, 161);
+    color: var(--color-2);
 }
 
 .fa-github:hover {
     /*cuando tengo mi mouse sobre el*/
-    color: rgb(45, 215, 161);
+    color: var(--color-2);
 }
 
 .fa-instagram:hover {
     /*cuando tengo mi mouse sobre el*/
-    color: rgb(45, 215, 161);
+    color: var(--color-2);
 }
 
 .fa-facebook:hover {
     /*cuando tengo mi mouse sobre el*/
-    color: rgb(45, 215, 161);
+    color: var(--color-2);
 }
 
 /*--------------------------------------------------------*/
@@ -238,7 +238,20 @@ header {
     .mapa {
         background-color: #bdc3c7;
         width: 100%;
-        height: 900px;
+        height: 1400px;
+    }
+    .grid_last_section {
+        top: 100px;
+        position: relative;
+        width: fit-content;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
     }
 }
 
@@ -321,6 +334,19 @@ header {
         background-color: #bdc3c7;
         width: 100%;
         height: 900px;
+    }
+    .grid_last_section {
+        top: 100px;
+        position: relative;
+        width: fit-content;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 60px;
+        grid-row-gap: 30px;
     }
 }
 
@@ -407,7 +433,21 @@ header {
         width: 100%;
         height: 900px;
     }
+    .grid_last_section {
+        top: 100px;
+        position: relative;
+        width: fit-content;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 60px;
+        grid-row-gap: 30px;
+    }
 }
+
 
 /*caja negra de cada habilidad*/
 div.habilidad_container {
@@ -695,7 +735,20 @@ img:hover {
     padding: 30px;
 
     position: relative;
-    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.video_container {
+    box-shadow: 5px 10px;
+    border-radius: 10px;
+    background-color: var(--color-2);
+    text-align: center;
+    padding: 30px;
+
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
@@ -723,6 +776,8 @@ div.mapouter{
 
 footer{
     color: #bdc3c7;
+    text-align: center;
+    line-height: 60px;
 }
 
 .titulo_table{
