@@ -631,7 +631,7 @@ h2 small {
     border-radius: 10px;
     line-height: 22px;
     background-color: transparent;
-    border: 2px solid var(--color-2);
+    border: 2px solid var(--color-1);
     transition: all 0.3s;
     padding: 13px;
     margin-bottom: 15px;
@@ -641,7 +641,7 @@ h2 small {
 }
 
 .feedback-input:focus {
-    border: 2px solid #CC4949;
+    border: 2px solid var(--color-2);
 }
 
 textarea {
@@ -652,7 +652,7 @@ textarea {
 
 [type="submit"] {
     width: 100%;
-    background: var(--color-2);
+    background: var(--color-1);
     border-radius: 10px;
     border: 0;
     cursor: pointer;
@@ -665,11 +665,11 @@ textarea {
 }
 
 [type="submit"]:hover {
-    background: var(--color-1);
+    background: var(--color-2);
 }
 
 img {
-    border: 5px solid var(--color-3);
+    border: 5px solid var(--color-1);
     border-radius: 10px;
     padding: 5px;
     width: 250px;
@@ -721,3 +721,10 @@ div.mapouter{
     border-radius: 10px;
 }
 
+footer{
+    color: #bdc3c7;
+}
+
+.titulo_table{
+    color: var(--color-1);
+}
