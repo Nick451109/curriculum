@@ -760,17 +760,16 @@ img:hover {
     text-align: right;
     height: 500px;
 }
-div.mapouter{
-    width: fit-content;
-    height: fit-content;
-}
+
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    height: 350px;
     bottom: 30px;
-    width: 350px;
+    border-radius: 10px;
+}
+
+.video{
     border-radius: 10px;
 }
 
@@ -783,4 +782,5 @@ footer{
 .titulo_table{
     color: var(--color-1);
 }
+
 
