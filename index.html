@@ -2,111 +2,203 @@
 <html>
 
 <head>
-    <title>My Page</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <title>Curriculum Vitae</title>
+  <title>
+    Nick Arevalo CV
+  </title>
+  <!--<audio controls><source src="music/track01.mp3"></audio>-->
+  <link rel='stylesheet' href='public/stylesheets/style.css' />
+  <script src="https://kit.fontawesome.com/e8caa45c59.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 </head>
 
 <body>
-    <header>
-        <h1>Curriculum Vitae</h1>
-        <video width="320" height="240" controls>
-            <source src="/cat_coding.mp4" type="video/mp4">
-        </video>    
-        <nav>
-            <a href="https://github.com/Nick451109" target="_blank">Visitame</a>
-        </nav>
+  <!--estructura del body-->
+  <!--Barra de navegación-->
+  <header>
 
-    </header>
-    <main>
-        <img src="/foto.png" alt="so easy(soy ese)" width="200">
-        <hr>
-        <section class="information" id="a">
-            <h2>Personal Information</h2>
-            <p>Name: Nick Arevalo</p>
-            <p>Email: narevalo@espol.edu.ec</p>
-            <p>Phone: 0999207238</p>
-        </section>
-        <hr>
-        <section class="information" id="2">
-            <h2>Education</h2>
-            <p>ESPOL</p>
-            <p>Computer Science</p>
-            <p>2020-?</p>
-        </section>
-        <hr>
-        <section class="information" id="3">
-            <h2>Work Experience</h2>
-            <p>None yet :)</p>
-            <p>2020-Present</p>
-            <p>Developed and maintained software for myself</p>
-        </section>
-        <hr>
-        <section class="information" id="4">
-            <h2>Skills</h2>
-            <p>Programming Languages: Java, Python</p>
-            <p>Operating Systems: Linux, Windows</p>
-            <p>Databases: MySQL, PostgreSQL</p>
-        </section>
-        <hr>
-        <section class="information"id="5">
-            <h2>Form</h2>
-            <p></p>
-            <form action="/signup" method="post">
-                <p>
-                  <label>First name</label><br>
-                  <input type="text" name="first_name">
-                </p>
-                <p>
-                  <label>Last name</label><br>
-                  <input type="text" name="last_name">
-                </p>
-                <p>
-                  <label>Email</label><br>
-                  <input type="email" name="email" required>
-                </p>
-                <p>
-                  <label>Phone number</label><br>
-                  <input type="tel" name="phone">
-                </p>
-                <p>
-                  <label>Password</label><br>
-                  <input type="password" name="password">
-                </p>
-                <p>
-                  <label>Country</label><br>
-                  <select>
-                    <option>China</option>
-                    <option>India</option>
-                    <option>United States</option>
-                    <option>Indonesia</option>
-                    <option>Brazil</option>
-                  </select>
-                </p>
-                <p>
-                  <label>
-                    <input type="checkbox" value="terms">
-                    I agree to the <a href="/terms">terms and conditions</a>
-                  </label>
-                </p>
-                <p>
-                  <button>Sign up</button>
-                  <button type="reset">Reset form</button>
-                </p>
-              </form>
+    <nav id="navbar">
+      <ul class="nav_links">
+        <li>
+          <a href="https://www.linkedin.com/in/nick-ar%C3%A9valo-ronquillo-6a0825210/">
+            <i class="fa-brands fa-linkedin fa-xl"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Nick451109">
+            <i class="fa-brands fa-github fa-xl"></i>
+          </a>
+        </li>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31897.72373184341!2d-79.88139547384677!3d-2.0697103709294513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d139d6c720893%3A0x8f96ca822d5c2ee6!2sCd%20Celeste%2C%20Samborond%C3%B3n!5e0!3m2!1ses!2sec!4v1684784095801!5m2!1ses!2sec" width="320" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <li>
+          <a href="https://www.instagram.com/nckcr_/">
+            <i class="fa-brands fa-instagram fa-xl"></i>
+          </a>
+        </li>
 
+        <li>
+          <a href="https://www.facebook.com/nick.arevalo.7/">
+            <i class="fa-brands fa-facebook fa-xl"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-        </section>
-        <hr>
-    </main>
-    <footer>
-        <p>Copyright &copy; 2023</p>
-        
-    </footer>
+  </header>
+
+  <!--seccion 1-->
+  <main>
+    <section>
+      <section class="yo">
+        <h3 class="txt_1">
+          Hola, soy Nick estudiante de Ing. Computación
+        </h3>
+        <h3 class="txt_1">
+          Fascinado por el aprendizaje y la tecnonolgía
+        </h3>
+        <div class="txt_yo">
+          <div class="mi_imagen">
+            <img src="images/io2.jpg">
+          </div>
+        </div>
+
+      </section>
+
+      <!--seccion 2-->
+      <section class="habilidades">
+        <h3 class="txt_secciones">
+          Mis habilidades
+        </h3>
+        <div class="grid_habilidades">
+          <div class="habilidad_container">
+            <div class="img_habilidad"><i class="fa-brands fa-github fa-5x"></i></div>
+            <h3 class="txthab">Control del manejo de versiones en git</h3>
+          </div>
+          <div class="habilidad_container">
+            <div class="img_habilidad"><i class="fa-brands fa-java fa-5x"></i></div>
+            <h3 class="txthab">Programación orientada a objetos y estructuras de datos en Java</h3>
+          </div>
+          <div class="habilidad_container">
+            <div class="img_habilidad"><i class="fa-brands fa-python fa-5x"></i></div>
+            <h3 class="txthab">Programación estructurada en Python</h3>
+          </div>
+          <div class="habilidad_container">
+            <div class="img_habilidad"><i class="fa-solid fa-database fa-5x"></i></div>
+            <h3 class="txthab">Manejo de bases de datos relaciones en MySQL</h3>
+          </div>
+          <div class="habilidad_container">
+            <div class="img_habilidad"><i class="fa-solid fa-computer fa-5x"></i></div>
+            <h3 class="txthab">Uso de buenas prácticas de programación S.O.L.I.D y Refactoring</h3>
+          </div>
+          <div class="habilidad_container">
+            <div class="img_habilidad"><i class="fa-solid fa-language fa-5x"></i></div>
+            <h3 class="txthab">Uso y habla de Inglés fluido nivel B2</h3>
+          </div>
+      </section>
+
+      <!--seccion 3-->
+      </div>
+      <section class="proyectos">
+        <h3 class="txt_secciones">
+          Algunos de mis proyectos..
+        </h3>
+        <div class="grid_proyectos">
+          <div class="proyecto_container">
+            <div class="img_proyecto"><i class="fa-brands fa-java fa-8x"></i></div>
+            <h3 class="txtproy">Aplicación de concurso de mascotas utilizando conceptos de programación orientada a
+              objetos en Java</h3>
+          </div>
+          <div class="proyecto_container">
+            <div class="img_proyecto"><i class="fa-solid fa-database fa-8x"></i></div>
+            <h3 class="txtproy">Diseño de la base de datos desde cero de la guardería DayCare en MySQL</h3>
+          </div>
+          <div class="proyecto_container">
+            <div class="img_proyecto"><i class="fa-brands fa-java fa-8x"></i></div>
+            <h3 class="txtproy">Aplicación de adivinanza utilizando como estructura de datos árboles binarios en Java
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <!--seccion 4-->
+      <section class="sobre_mi">
+        <h3 class="txt_secciones">
+          Un poco más sobre mi
+        </h3>
+        <div class="info_container">
+          <!--contenerdor general-->
+          <div class="container">
+            <h2 class="titulo_table">Experiencias<small> 2022</small></h2>
+            <ul class="responsive-table">
+              <li class="table-header">
+                <div class="columna1">
+                  <h1 class="txtnegro">Lugar</h1>
+                </div>
+                <div class="columna2">
+                  <h1 class="txtnegro">Cargo</h1>
+                </div>
+                <div class="columna3">
+                  <h1 class="txtnegro">Tiempo</h1>
+                </div>
+                <div class="columna4">
+                  <h1 class="txtnegro">Descripción</h1>
+                </div>
+              </li>
+              <li class="table-row">
+                <div class="columna1" data-label="Lugar">Soon</div>
+                <div class="columna2" data-label="Cargo">Soon</div>
+                <div class="columna3" data-label="Tiempo">Soon</div>
+                <div class="columna4" data-label="Descripción">Soon</div>
+              </li>
+              <li class="table-row">
+                <div class="columna1" data-label="Lugar">Soon</div>
+                <div class="columna2" data-label="Cargo">Soon</div>
+                <div class="columna3" data-label="Tiempo">Soon</div>
+                <div class="columna4" data-label="Descripción">Soon</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+      <!--seccion 5-->
+      <section class="form">
+        <h3 class="txt_secciones">
+          Contáctame!
+        </h3>
+        <div class="form_container">
+          <!--contenerdor general-->
+          <form>
+            <input name="name" type="text" class="feedback-input" placeholder="Nombre" />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Mensaje"></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
+      </section>
+
+      <!--seccion 6-->
+      <section class="mapa">
+        <h3 class="txt_secciones">
+          Donde me encuentras
+        </h3>
+        <div class="map_container">
+          <!--contenerdor general-->
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=mapasingue%20este&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br></div>
+          </div>
+        </div>
+      </section>
+
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
+
 </body>
 
 </html>
